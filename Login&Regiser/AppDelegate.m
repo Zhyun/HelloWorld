@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Developer.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSLog(@"我是git Developer 分支");
+    Developer *developer=[Developer new];
+    
     // Override point for customization after application launch.
     return YES;
 }

@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-
 #import "RootViewController.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *userName;
@@ -22,6 +21,7 @@
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor grayColor];
     _model=[CollModel new];
+   
 }
 - (IBAction)loginAction:(id)sender {
 //---------===
