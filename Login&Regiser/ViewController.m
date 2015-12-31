@@ -24,8 +24,9 @@
     _model=[CollModel new];
 }
 - (IBAction)loginAction:(id)sender {
-
-    NSLog(@"%@ %@",_model.userNam,_model.passWor);
+//---------===
+    ///ooooooooooooo
+    NSLog(@"%@::%@",_model.userNam,_model.passWor);
     if(_userName.text==self.model.userNam && _passWord.text==self.model.passWor) {
         RootViewController *rvc=[RootViewController new];
         [self.navigationController pushViewController:rvc animated:YES];
